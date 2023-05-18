@@ -1,0 +1,3 @@
+-install react-router-dom@6.3.0 react-boostrap(dyal react) boostrap(bostrp 3Adiya)
+-faire des componant pour chaque navbar , , , 
+-ajouter un root pour chaque page 

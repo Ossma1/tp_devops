@@ -1,0 +1,39 @@
+[
+    { "S":"Semester1",
+      
+      "childrens":[
+        {   "Module":"Java",
+            "Element":"Html",
+            "valide":true
+        },
+        {   "Module":"Java",
+            "Element":"csc"
+        }
+        ]
+
+    },
+    { "S":"Semester2",
+      
+      "childrens":[
+        {   "Module":"JEE",
+            "Element":"Html2"
+        },
+        {  "Module":"JEE",
+            "Element":"csc2"
+        }
+        ]
+
+    },
+    { "S":"Semester3",
+      
+      "childrens":[
+        {   "Module":"Merise",
+            "Element":"MCD"
+        },
+        {   "Module":"Merise",
+            "Element":"SQL"
+        }
+        ]
+
+    }
+]

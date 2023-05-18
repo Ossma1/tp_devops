@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Home",
+        "icon": "bi-house-fill",
+        "childrens": [
+            {
+                "title": "Home",
+                "icon": "bi-house-fill",
+                "path": "/"
+            },
+            {
+                "title": "About",
+                "icon": "bi-info-circle-fill",
+                "path": "/about"
+            }
+        ]
+    },
+    
+    {
+        "title": "Filiers",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "GI"
+                    
+            },
+            {
+                "title": "IID"
+                
+            },
+            {
+                "title": "ELEC"
+            }
+        ]
+    },
+        {
+        "title": "Export Data",
+        "icon": "bi bi-download"
+        
+    }
+    
+        ]

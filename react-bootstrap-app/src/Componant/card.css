@@ -1,0 +1,24 @@
+.module{
+    color: rgb(72, 72, 72);
+    position : absolute;
+    top: 6%;
+}
+.element{
+    position : absolute;
+    top: 30%;
+    left: 10%;
+}
+.date{
+   
+    font-size: 13px;
+}
+.etat{
+    position : absolute;
+    top: 6%;
+    right:  8%;
+    width: 25%;
+    border-radius: 10px;
+        border: 1px solid none;
+        color: white;
+      
+}

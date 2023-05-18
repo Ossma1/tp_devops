@@ -1,0 +1,44 @@
+//use des variable par $nom de variable
+//body pas de hoteur pour ca faut donne hotteur de 100vh avant de alignitimes center
+
+
+
+@function add($a,$b)
+{
+    @return $b+$a;
+}
+$theme-colors: (
+    "info": blueviolet,
+    "danger": orangered
+);
+@mixin centr{
+
+    height: add(54vh,10vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin position($a:12){//bhal lfo9 ghisti3mal des argument  12 is valeur par default
+    @if $a!=red {
+        border-radius: 50%;        
+    }
+}
+.div{
+    @include centr;
+    background-color: $theme-colors;
+    color: white;
+    .nav{
+        background-color: $theme-colors;
+        &first-child { background-color:aqua
+        }
+    }
+
+}
+
+.tit{
+    font-size: 50px;
+}
+.titre{
+    @extend .tit;
+    color: violet;
+}

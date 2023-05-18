@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Home",
+        "icon": "bi-house-fill",
+        "childrens": [
+            {
+                "title": "Home",
+                "icon": "bi-house-fill",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Users",
+        "icon": "bi-person-fill",
+        "childrens": [
+            {
+                "title": "Add",
+                "icon": "bi-person-plus-fill",
+                "path": "/Add"
+            },
+            {
+                "title": "Delete",
+                "icon": "bi-person-dash-fill",
+                "path": "/Delete"
+            },
+            {
+                "title": "Forgot Password",
+                "path": "/forgot-password"
+            },
+            {
+                "title": "Reset Password",
+                "path": "/reset-password"
+            }
+        ]
+    },
+    {
+        "title": "Filiers/Element",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "GI",
+                "childrens": [
+                    {
+                        "title": "JAVA",
+                        "path": "/JAVA"
+                    },
+                    {
+                        "title": "JEE",
+                        "path": "/JEE"
+                    },
+                    {
+                        "title": "SQL",
+                        "path": "/SQL"
+                    }
+                ]
+            },
+            {
+                "title": "IID",
+                "childrens": [
+                    {
+                        "title": "JAVA",
+                        "path": "/JAVA"
+                    },
+                    {
+                        "title": "JEE",
+                        "path": "/JEE"
+                    },
+                    {
+                        "title": "SQL",
+                        "path": "/SQL"
+                    }
+                ]
+            },
+            {
+                "title": "ELEC",
+                "childrens": [
+                    {
+                        "title": "JAVA",
+                        "path": "/JAVA"
+                    },
+                    {
+                        "title": "JEE",
+                        "path": "/JEE"
+                    },
+                    {
+                        "title": "SQL",
+                        "path": "/SQL"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Profs",
+        "icon": "bi-view-list",
+        "childrens": [
+           
+            {
+                "title": "All_profs",
+                "path": "ADMINP"   
+            }
+        ]
+    }
+    
+]
